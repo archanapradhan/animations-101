@@ -3,6 +3,7 @@ import React from "react";
 import "./Modal.css";
 
 const modal = (props) => {
+  console.log("props.show", props.show);
   const modalStyles = ["Modal", props.show ? "ModalOpen" : "ModalClose"];
   return (
     <div className={modalStyles.join(" ")}>

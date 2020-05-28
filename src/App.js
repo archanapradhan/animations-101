@@ -10,12 +10,18 @@ class App extends Component {
     isModalOpen: false,
   };
 
-  closeModal = () => {
-    this.setState({ isModalOpen: false });
+  showModal = () => {
+    console.log("show modal before props.show", this.state.isModalOpen);
+
+    this.setState({ isModalOpen: true });
+    console.log("show modal after props.show", this.state.isModalOpen);
   };
 
-  showModal = () => {
-    this.setState({ isModalOpen: true });
+  closeModal = (prevSate) => {
+    console.log("close modal before props.show", this.state.isModalOpen);
+
+    this.setState({ isModalOpen: false });
+    console.log(" close modal after props.show", this.state.isModalOpen);
   };
 
   render() {
