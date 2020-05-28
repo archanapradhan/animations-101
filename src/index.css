@@ -6,7 +6,6 @@ body {
 
 .Button {
   border: 1px solid #c28181;
-
   font: inherit;
   padding: 8px;
   box-shadow: -2px 2px 15px #c28181;
@@ -20,8 +19,8 @@ body {
 .Button:hover,
 .Button:active {
   box-shadow: -5px 5px 10px #c28181;
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
   background-color: #9c4747;
   color: white;
 }
