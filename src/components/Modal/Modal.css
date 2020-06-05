@@ -8,7 +8,7 @@
   text-align: center;
   box-sizing: border-box;
   top: 30%;
-  left: 25%;
+  right: 25%;
   width: 50%;
   transition: all 0.3 ease-out;
 }
