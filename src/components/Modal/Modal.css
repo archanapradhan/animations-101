@@ -14,14 +14,14 @@
 }
 
 .ModalOpen {
-  display: block;
+  /* display: block; */
   animation: openModal 0.4s ease-out forwards;
 }
 
 .ModalClose {
-  display: none;
+  /* display: none; */
 
-  /* animation: closeModal 0.4s ease-out forwards; */
+  animation: closeModal 0.4s ease-out forwards;
 }
 
 @keyframes openModal {
